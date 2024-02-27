@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" href="img/inconform.png">
+    <title>formulario.html</title>
+</head>
+<body class="form">
+  <p class="titulo">Breaking Bad - Qué comience el juego!</p>
+  
+    <form id=formulario name=formulario method="post" action="mailto:raul.rodriguez@proeducaglobal.com" class="formulario">
+      <fieldset>Datos personales
+            <legend>Formulario de petición de información</legend>
+            <fieldset>
+       Nombre: <input type="text" name="Nombre" id="" placeholder="Escribe tu nombre" required> Apellidos: <input type="text" name="apellidos" id="" placeholder="Escribe tus apellidos" required>
+       <br>
+       <br>DNI: <input type="text" name="dni" id="" placeholder="XXXXXXXX-A"> 
+       <br>
+       <br>Fecha de nacimiento: <input type="date" name="Nacimiento" id=""> 
+       <br>
+       <br>Sexo: <input type="radio" name="sexo">Hombre <input type="radio" name="sexo">Mujer
+      </fieldset>
+      <fieldset>
+      <legend>Datos de contacto:</legend>
+       <br>Dirección Postal: <input type="text" name="calle" id="" placeholder="Calle, plaza o avenida"> Número<input type="text" name="Número" id="" placeholder="Nº, Piso, Escalera, Planta...">
+       <br> 
+       <br>Ciudad: <input type="text" name="Ciudad" id="" placeholder="Ciudad de residencia">   
+       <br>  
+       <br>Código Postal: <input type="text" name="CP" id="" placeholder="CP:XXXXX" required>    
+       <br>
+       <br>E-mail: <input type="email" name="mail" id="" placeholder="Ej: email@google.es" required width="200px"> 
+     </fieldset>
+     <fieldset>
+     <legend>Detállanos tu solucitud de información</legend>
+      Seleccione un personaje:<select name="Personaje" id=""><option value="1">Jessie Pinkman</option>
+        <option value="2">Walter White</option>
+        <option value="3">Saul Goodman</option>
+        <option value="4">Gustavo Fring</option>
+        <option value="5">Pollos Hermanos</option>
+        <option value="6">Otros personajes</option>
+        </select>
+       <br>
+       <br>
+       <textarea name="comentarios" id="" cols="50" rows="10" minlength="5" maxlength="250" 
+              placeholder="Añadir comentario. Máximo 250 caracteres."></textarea>
+     </fieldset>
+     
+       <br><input type="submit" value="Enviar formulario">
+       <input type="reset" value="Eliminar">
+       <input type="file" name="" id="" value="Adjuntar Archivos" accept=".pdf, .png, .jpg" multiple>
+    </form>
+    </body>
+</html>

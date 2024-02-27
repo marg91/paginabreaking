@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'breakingFont';
+    src:url('Font/Bad.ttf');
+}
+body.bodyindex{
+    color:white;
+    text-align:center;
+    background-image: url("img/fondo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'breakingFont';
+
+    
+ }
+body.bodytab{
+        background-color: #0c3e11;
+        text-align: center;
+ }
+
+#imgposter{
+    width: 700px;
+    height: 300px;
+    border:10px outset brown;
+    border-radius: 22px;
+ }
+
+#imglogo{
+    width: 200px;
+    height: 200px;
+}
+#parrafo{
+font-family: 'breakingFont', sans-serif;  
+font-size: 14px;    
+text-align: center;
+color:white
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 10px;    
+    text-align: center;
+    color:black;
+    font-weight: normal;
+    vertical-align: bottom;
+    
+}
+body.form{
+    color:white;
+    background-image: url("img/fondo.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: justify;
+    color:white;
+    font-family:Helvetica;
+    font-size:10px;
+    font-weight: bolder;
+    }
+
+.tabla1{
+    background-color: #2b2c24;
+    font-size: 14px;
+    font-family: Helvetica;
+    padding: 0;
+    text-align: center;  
+ }
+    
+#idnumero{
+    width: 70%;
+}
+
+.titulo{
+    text-align: center;
+    color:white;
+    font-family:Helvetica;
+    font-size: 14px;
+}
+ 
+   
+.C1{
+    background-color: #b8db1d;
+    }
+.C2{
+    background-color: #c5e24b;
+}
+  
+.C4 {
+    background-color:  #e1eac7;
+}
+.C8{
+    background-color: #ae5fce 
+}
+.C9{
+    background-color: #e9faa3;
+}
+.C5{
+    background-color: #73ab1a;
+}
+.C7{
+    background-color: #334c0c;
+}
+.C6{
+    background-color: #8a8f81;
+}
+.C3{
+    background-color:#5a6b3b;
+}
+
+
+#tabla2{
+    background-color: #2b2c24;
+    font-size: 14px;
+    font-family: Helvetica;
+    padding: 0;
+
+
+
+}
+.TP2{       
+    background-color: #c2c62a;
+    text-align: center;
+    border:3px solid #2b2c24;
+    border-style: solid;
+}
+tr,
+td{
+    border:3px solid #2b2c24;
+    border-style: solid;
+    width: 80px;
+    height: 80px;
+    font-family:Helvetica;
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 0;
+}
+table{
+    margin:auto;
+    text-align:justify;
+}
+.im{
+    height: 53px;
+}
+#hank{
+    display: block;
+    width: 89px;
+    height: 89px;
+    height:unset;
+    size: 200%;
+}
+.td2{
+    width: 80px;
+    height: 80px;
+}
